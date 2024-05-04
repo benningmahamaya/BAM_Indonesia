@@ -549,6 +549,7 @@ p {
 
 .footnav a {
     text-decoration: none;
+    font-family: 'Garet';
     color: #E9DDBD;
     letter-spacing: 1px;
 }
