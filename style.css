@@ -9,7 +9,7 @@ html {
 
 @font-face {
     font-family: 'Liham';
-    src: url(FONTS/Liham\ 2.0.otf);
+    src: url(FONTS/Liham 2.0.otf);
     font-family: 'Garet';
     src: url(FONTS/Garet-Book.ttf);
 }
@@ -24,7 +24,6 @@ html {
     font-family: 'Garet';
     src: url(FONTS/Garet-Book.woff) format(.woff);
         url(FONTS/Garet-Book.woff2) format(.woff2);
-    
 }
 
 .arrowup {
@@ -51,7 +50,6 @@ html {
 }
 
 .navbar {
-    font-family: 'Garet';
     overflow-x: hidden;
     width: 100%;
     z-index: 100;
@@ -153,7 +151,6 @@ html {
     
     text-align: center;
     font-size: 50px;
-    font-family: 'Liham';
     color: #FFE3EC;
     text-shadow: 2px 2px 50px #251C18;
 }
@@ -173,7 +170,6 @@ html {
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
     color: #E9DDBD;
-    font-family: Garet;
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -207,13 +203,13 @@ h3 {
 }
 
 h2 {
-    font-family: Liham;
+    font-family: 'Liham';
     font-size: 50px;
     color: #FFE3EC;
 }
 
 p {
-    font-family: Garet;
+    font-family: 'Garet';
     font-size: 20px;
     color: #FFE3EC;
     text-align: justify;
@@ -230,7 +226,7 @@ p {
     background-color: #93927A;
     padding: 10px 30px;
 
-    font-family: Garet;
+    font-family: 'Garet';
     letter-spacing: 1px;
     font-size: 20px;
     color: #E9DDBD
@@ -348,6 +344,12 @@ p {
     grid-template-areas: 
     'subdesc subdesc subdesc subdesc subdesc subdesc'
     'subgallery subgallery subgallery subgallery subgallery subgallery';
+}
+
+@support not (display: grid){
+    .submissions{
+        display: grid
+    }
 }
 
 .subdesc {
@@ -531,9 +533,9 @@ p {
 
 .footnav a {
     text-decoration: none;
+    font-family: 'Garet';
     color: #E9DDBD;
     letter-spacing: 1px;
-    font-family: 'Garet';
 }
 
 .footnav a:hover {
