@@ -50,7 +50,6 @@ html {
 }
 
 .navbar {
-    font-family: 'Garet';
     overflow-x: hidden;
     width: 100%;
     z-index: 100;
@@ -62,7 +61,6 @@ html {
 }
 
 .navbar a {
-    font-family: 'Garet';
     text-decoration: none;
     color: #E9DDBD;
     font-size: 15px;
@@ -139,7 +137,6 @@ html {
 
 .container {
     overflow-x: hidden;
-    font-family: 'Liham', 'Garet';
     background-image: url(IMAGES/AIMEE2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,7 +151,6 @@ html {
     
     text-align: center;
     font-size: 50px;
-    font-family: 'Liham';
     color: #FFE3EC;
     text-shadow: 2px 2px 50px #251C18;
 }
@@ -174,7 +170,6 @@ html {
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
     color: #E9DDBD;
-    font-family: 'Garet';
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -189,19 +184,11 @@ html {
     padding-bottom: 100px;
 }
 
-.bamdef h2 {
-    font-family: 'Liham';
-}
-
 .bamdesc {
     margin-top: 500px;
     padding: 60px 180px;
 
     background-color: rgba(0, 0, 0, 0.6);
-}
-
-.bamdesc h2 {
-    font-family: 'Liham';
 }
 
 .bamdesc p {
@@ -279,10 +266,6 @@ p {
 
 .kunodesc p {
     text-align: justify;
-}
-
-.kuno h2 {
-    font-family: 'Liham';
 }
 
 .kunobtn {
@@ -538,6 +521,7 @@ p {
     grid-area: footnav;
     padding-right: 70px;
     text-align: left;
+    font-family: 'Garet';
 }
 
 .footnav ul li {
