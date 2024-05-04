@@ -8,9 +8,9 @@ html {
 }
 
 @font-face {
-    font-family: Liham;
+    font-family: 'Liham';
     src: url(FONTS/Liham\ 2.0.otf);
-    font-family: Garet;
+    font-family: 'Garet';
     src: url(FONTS/Garet-Book.ttf);
 }
 
@@ -519,18 +519,21 @@ p {
     grid-area: footnav;
     padding-right: 70px;
     text-align: left;
+    font-family: 'Garet';
 }
 
 .footnav ul li {
     list-style-type: none;
     padding: 10px;
     padding-left: 0;
+    font-family: 'Garet';
 }
 
 .footnav a {
     text-decoration: none;
     color: #E9DDBD;
     letter-spacing: 1px;
+    font-family: 'Garet';
 }
 
 .footnav a:hover {
