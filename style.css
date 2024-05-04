@@ -1,0 +1,978 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Liham;
+    src: url(FONTS/Liham\ 2.0.otf);
+    font-family: Garet;
+    src: url(FONTS/Garet-Book.ttf);
+}
+
+@font-face {
+    font-family: 'Liham';
+    src: url(FONTS/Liham\ 2.0.woff) format(.woff);
+}
+
+@font-face {
+    font-family: 'Garet';
+    src: url(FONTS/Garet-Book.woff) format(.woff);
+    
+}
+
+.arrowup {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+}
+
+.arrowup a {
+    height: 40px;
+    width: 38px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrowup a span {
+    color: #E9DDBD;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+.navbar {
+    font-family: 'Garet';
+    overflow-x: hidden;
+    width: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #E9DDBD;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #E9DDBD;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 5px 50px 5px 50px;
+}
+
+.navbar a:hover {
+    color: #93927A;
+    transition: 1s;
+}
+
+.navbar a.active {
+    color: #93927A;
+}
+
+.navbar .nav-icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a{
+        display: none;
+        text-align: center;
+    }
+
+    .navbar .nav-icon {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {
+        transition: 1s ease;
+        float: none;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar.responsive a.nav-icon {
+        transition: 1s ease;
+        float: none;
+        position: relative;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .navbar.responsive a {
+        transition: 1s ease;
+        float: none;
+        display: block;
+        padding: 10px;
+    }
+  }
+
+@media screen and (max-width:1024px) {
+    .navbar a {
+        padding: 5px 20px 5px 20px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1168px) {
+    .navbar a {
+        padding: 5px 35px 5px 35px;
+    }
+}
+
+.container {
+    overflow-x: hidden;
+    background-image: url(IMAGES/AIMEE2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+}
+
+.title {
+    width: auto;
+    padding-top: 160px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Liham';
+    color: #FFE3EC;
+    text-shadow: 2px 2px 50px #251C18;
+}
+
+.landingbtn {
+    text-align: center;
+}
+
+.landingbtn a {
+    text-decoration: none;
+}
+
+.landingbtn button {
+    margin: 20px;
+    padding: 7px 20px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: #E9DDBD;
+    font-family: Garet;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.landingbtn button:hover {
+    background-color: #93927A;
+    transition: 0.5s;
+}
+
+.bamdef {
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+
+.bamdesc {
+    margin-top: 500px;
+    padding: 60px 180px;
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bamdesc p {
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Garet';
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #FFE3EC;
+}
+
+h2 {
+    font-family: Liham;
+    font-size: 50px;
+    color: #FFE3EC;
+}
+
+p {
+    font-family: Garet;
+    font-size: 20px;
+    color: #FFE3EC;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.bambtn {
+    text-align: center;
+}
+
+.learnmore {
+    border: none;
+    background-color: #93927A;
+    padding: 10px 30px;
+
+    font-family: Garet;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #E9DDBD
+}
+
+.learnmore:hover {
+    background-color: #D46988;
+    transition: 1s;
+}
+
+.kuno {
+    overflow-x: hidden;
+    height: auto;
+    width: auto;
+    background-image: url(IMAGES/Copy\ of\ DSC_5341\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(99, 99, 99);
+    background-blend-mode: multiply;
+    border-top: 1px solid #E9DDBD;
+    border-bottom: 1px solid #E9DDBD;
+
+    display: grid;
+    width: auto;
+    grid-template-areas: 
+    'poster poster poster kunodesc kunodesc kunodesc'
+    'poster poster poster kunobtn kunobtn kunobtn';
+}
+
+.kunodesc {
+    grid-area: kunodesc;
+    width: auto;
+    padding: 60px 50px 20px 50px;
+    text-align: right;
+}
+
+.kunodesc p {
+    text-align: justify;
+}
+
+.kunobtn {
+    grid-area: kunobutton;
+    text-align: right;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+
+.poster {
+    grid-area: poster;
+    text-align: center;
+}
+
+.exhibition {
+    overflow-x: hidden;
+    background-image: url(IMAGES/Screenshot\ 2024-03-14\ at\ 14.52.04.png);
+    background-color: rgb(99, 99, 99);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    'exdesc exdesc exdesc exdesc exdesc exdesc'
+    'galleryscroll galleryscroll galleryscroll galleryscroll galleryscroll galleryscroll';
+}
+
+.exdesc {
+    grid-area: exdesc;
+    padding: 40px 50px 0px 50px;
+}
+
+.exdesc p {
+    padding-right: 250px;
+}
+
+.galleryscroll {
+    grid-area: galleryscroll;
+    background-color: #E9DDBD;
+    padding: 30px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child {
+    min-width: 500px;
+    height: 350px;
+    margin: 5px;
+    cursor: pointer;
+    overflow: hidden; 
+}
+
+.child img {
+    height: 100%;
+    transition: .5s ease;
+}
+
+.child img:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.submissions {
+    overflow-x: hidden;
+    background-image: url(IMAGES/Copy\ of\ DSC_5341\ \(1\).jpg);
+    background-color: rgb(99, 99, 99);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: 
+    'subdesc subdesc subdesc subdesc subdesc subdesc'
+    'subgallery subgallery subgallery subgallery subgallery subgallery';
+}
+
+.subdesc {
+    grid-area: subdesc;
+    padding: 50px 50px 0px 50px;
+}
+
+.subdesc p {
+    padding-right: 250px;
+    text-align: justify;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.subgallery {
+    overflow-x: hidden;
+    grid-area: subgallery;
+    display: grid;
+    justify-content: space-between;
+    padding: 30px 10px 50px 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    grid-template-areas: 
+    'col1 col1 col2 col2 col3 col3';
+}
+
+.col1 {
+    grid-area: col1;
+}
+
+.col1 img {
+    width: 450px;
+    border-radius: 5px;
+    transition: .5s ease;
+
+}
+
+.col1 img:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.col1 h3 {
+    font-size: 20px;
+    color: #E9DDBD;
+    padding-bottom: 0;
+    padding-top: 10px;
+    letter-spacing: 0px;
+}
+
+.col1 p {
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #E9DDBD;
+}
+
+.col2 {
+    grid-area: col2;
+}
+
+.col2 img {
+    width: 450px;
+    border-radius: 5px;
+    transition: .5s ease;
+
+}
+
+.col2 img:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.col2 h3 {
+    font-size: 20px;
+    color: #E9DDBD;
+    padding-bottom: 0;
+    padding-top: 10px;
+    letter-spacing: 0px;
+}
+
+.col2 p {
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #E9DDBD;
+}
+
+.col3 {
+    grid-area: col3;
+
+}
+
+.col3 img {
+    width: 450px;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+.col3 img:hover {
+    opacity: 0.5;
+    transition: .5s ease;
+}
+
+.col3 h3 {
+    font-size: 20px;
+    color: #E9DDBD;
+    padding-bottom: 0;
+    padding-top: 10px;
+    letter-spacing: 0px;
+}
+
+.col3 p {
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #E9DDBD;
+}
+
+.message {
+    overflow-x: hidden;
+    background-image: url(IMAGES/Copy\ of\ DSC_5341\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(99, 99, 99);
+    background-blend-mode: multiply;
+    padding: 50px;
+    text-align: center;
+}
+
+.message img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+
+.message h3 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.message h2 {
+    text-align: center;
+}
+
+.message p {
+    text-align: center;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.footer {
+    overflow-x: hidden;
+    background-color: #93927A;
+    padding: 50px;
+    display: grid;
+
+    grid-template-areas: 
+    'logo logo footnav footnav footbtn footbtn';
+}
+
+.logo {
+    padding-right: 70px;
+    grid-area: logo;
+}
+
+.footnav {
+    grid-area: footnav;
+    padding-right: 70px;
+    text-align: left;
+}
+
+.footnav ul li {
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.footnav a {
+    text-decoration: none;
+    color: #E9DDBD;
+    letter-spacing: 1px;
+}
+
+.footnav a:hover {
+    border-bottom: 2px solid #E9DDBD;
+}
+
+.footbtn {
+    grid-area: footbtn;
+    text-align: left;
+}
+
+.footbtn button {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: #E9DDBD;
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Garet;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.footbtn button:hover {
+    background-color: #D46988;
+    transition: .5s ease;
+}
+
+.footbtn h3 {
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.about {
+    overflow-x: hidden;
+    background-image: url(IMAGES/AIMEE2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(62, 62, 62);
+    background-blend-mode: multiply;
+    text-align: center;
+    height: 100vh;
+}
+
+.back {
+    overflow: hidden;
+    position: absolute;
+    top: 105px;
+    left: 50px;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    border-radius: 50%;
+    border: 5px solid #E9DDBD;
+}
+
+.back i {
+    font-size: 35px;
+    position: relative;
+    top: 22%;
+ }
+
+.abtbam {
+    margin-top: 70px;
+}
+
+.abtitle {
+    padding-left: 200px;
+    padding-top: 50px;
+    text-align: left;
+}
+
+.abtitle h2 {
+    color: #E9DDBD;
+    font-size: 40px;
+}
+
+.abdesc {
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 150px;
+}
+
+.abbtn {
+    padding-top: 20px;
+    padding-left: 190px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.abbtn button {
+    margin-left: 10px;
+}
+
+.map {
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+.abbtnmap {
+    opacity: 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        background-position: center;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .landingbtn button {
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .bamdesc {
+        margin-top: 100px;
+        padding: 20px 30px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .learnmore {
+        font-size: 12px;
+    }
+
+    .kuno {
+        height: auto;
+        width: auto;
+        grid-template-areas: 
+        'poster poster poster poster poster poster'
+        'kunodesc kunodesc kunodesc kunodesc kunodesc kunodesc'
+        'kunobtn kunobtn kunobtn kunobtn kunobtn kunobtn';
+    }
+
+    .kunodesc {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .kunobtn {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .poster {
+        text-align: center;
+    }
+
+    .poster img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .exdesc {
+        grid-area: exdesc;
+        padding: 40px 30px 0px 30px;
+    }
+
+    .exdesc p {
+        padding-right: 5px;
+        text-align: justify;
+    }
+
+    .galleryscroll {
+        padding: 20px;
+        height: 250px;
+    }
+    
+    .child {
+        min-width: 400px;
+        height: 250px;
+        margin: 5px;
+    }
+
+    .subdesc {
+        padding: 40px 30px 0px 30px;
+    }
+
+    .subdesc p {
+        padding-right: 5px;
+        text-align: justify;
+    }
+
+    .subgallery {
+        padding: 30px 15px 50px 15px;
+        grid-template-areas: 
+        'col1 col1 col1 col1 col1 col1'
+        'col2 col2 col2 col2 col2 col2'
+        'col3 col3 col3 col3 col3 col3';
+    }
+
+    .subgallery img {
+        width: 340px;
+    }
+
+    .col1 {
+        text-align: center;
+    }
+
+    .col2 {
+        text-align: center;
+    }
+
+    .col3 {
+        text-align: center;
+    }
+
+    .subgallery p {
+        text-align: center;
+    }
+
+    .message p {
+        padding: 10px;
+    }
+
+    .message img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer {
+        grid-template-areas: 
+        'logo logo logo logo logo logo'
+        'footnav footnav footnav footnav footnav footnav'
+        'footbtn footbtn footbtn footbtn footbtn footbtn';
+    }
+
+    .logo {
+        margin-bottom: 40px;
+    }
+
+    .footnav {
+        margin-bottom: 40px;
+    }
+
+    .footnav ul li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .back {
+        top: 75px;
+        left: 40px;
+
+        width: 30px;
+        height: 30px;
+        border: 3px solid #E9DDBD;
+    }
+
+    .back i {
+        font-size: 20px;
+        top: 16%;
+    }
+
+    .abtbam {
+        margin-top: 90px;
+    }
+
+    .abtitle {
+        padding-left: 100px;
+        padding-right: 10px;
+        padding-top: 0px;
+
+    }
+
+    .abtitle h2 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .abdesc {
+        padding-left: 100px;
+        padding-right: 40px;
+        padding-top: 0px;
+    }
+
+    .abdesc p {
+        text-align: justify;
+    }
+
+    .abbtn {
+        padding-left: 90px;
+        padding-top: 0;
+    }
+
+    .abbtn button {
+        margin-bottom: 10px;
+    }
+
+    .map {
+        opacity: 0;
+    }
+
+    .abbtnmap {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width: 1169px) {
+    .container {
+        background-position: center;
+    }
+    
+    .title {
+        font-size: 30px;
+    }
+
+    .landingbtn button {
+        font-size: 15px;
+    }
+
+    .bamdesc {
+        margin-top: 150px;
+        padding: 60px 70px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .kuno {
+        grid-template-areas: 
+        'poster poster poster poster poster poster'
+        'kunodesc kunodesc kunodesc kunodesc kunodesc kunodesc'
+        'kunobtn kunobtn kunobtn kunobtn kunobtn kunobtn';
+    }
+
+    .kunodesc {
+        text-align: center;
+        padding: 10px 50px 20px 50px;
+    }
+
+    .kunobtn {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .poster {
+        text-align: center;
+    }
+
+    .exdesc p {
+        padding-right: 20px;
+        text-align: justify;
+    }
+
+    .subdesc p {
+        padding-right: 20px;
+    }
+
+    .subgallery {
+        padding: 30px 15px 50px 15px;
+        grid-template-areas: 
+        'col1 col1 col1 col1 col1 col1'
+        'col2 col2 col2 col2 col2 col2'
+        'col3 col3 col3 col3 col3 col3';
+    }
+
+    .subgallery img {
+        width: 700px;
+    }
+
+    .col1 {
+        text-align: center;
+    }
+
+    .col2 {
+        text-align: center;
+    }
+
+    .col3 {
+        text-align: center;
+    }
+
+    .subgallery h3, p {
+        text-align: center;
+    }
+
+    .message p {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .footbtn button {
+        font-size: 12px;
+    }
+
+    .back {
+        top: 75px;
+        left: 50px;
+    }
+
+    .abtbam {
+        margin-top: 30px;
+    }
+
+    .abtitle {
+        padding-right: 50px;
+    }
+
+    .abtitle h2 {
+        font-size: 35px;
+    }
+
+    .abdesc p {
+        text-align: justify;
+    }
+
+    .abbtn button {
+        margin-left: 10px;
+    }
+
+    .map {
+        text-align: right;
+        padding-right: 80px;
+    }
+
+    .map iframe {
+        width: 745;
+    }
+}
+
+@media screen and (min-width:1170px) and (max-width: 1400px){
+    .subgallery img {
+          width: 350px;
+    }
+}
