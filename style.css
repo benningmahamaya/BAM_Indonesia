@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Liham', 'Garet';
 }
 
 html {
@@ -48,6 +49,7 @@ html {
 }
 
 .navbar {
+    font-family: 'Garet';
     overflow-x: hidden;
     width: 100%;
     z-index: 100;
@@ -59,6 +61,7 @@ html {
 }
 
 .navbar a {
+    font-family: 'Garet';
     text-decoration: none;
     color: #E9DDBD;
     font-size: 15px;
@@ -149,7 +152,7 @@ html {
     
     text-align: center;
     font-size: 50px;
-    font-family: Liham;
+    font-family: 'Liham';
     color: #FFE3EC;
     text-shadow: 2px 2px 50px #251C18;
 }
@@ -169,7 +172,7 @@ html {
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
     color: #E9DDBD;
-    font-family: Garet;
+    font-family: 'Garet';
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -196,20 +199,20 @@ html {
 }
 
 h3 {
-    font-family: Garet;
+    font-family: 'Garet';
     font-size: 25px;
     letter-spacing: 1px;
     color: #FFE3EC;
 }
 
 h2 {
-    font-family: Liham;
+    font-family: 'Liham';
     font-size: 50px;
     color: #FFE3EC;
 }
 
 p {
-    font-family: Garet;
+    font-family: 'Garet';
     font-size: 20px;
     color: #FFE3EC;
     text-align: justify;
@@ -226,7 +229,7 @@ p {
     background-color: #93927A;
     padding: 10px 30px;
 
-    font-family: Garet;
+    font-family: 'Garet';
     letter-spacing: 1px;
     font-size: 20px;
     color: #E9DDBD
