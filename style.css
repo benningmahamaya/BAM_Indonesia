@@ -9,9 +9,9 @@ html {
 }
 
 @font-face {
-    font-family: Liham;
+    font-family: 'Liham';
     src: url(FONTS/Liham 2.0.otf);
-    font-family: Garet;
+    font-family: 'Garet';
     src: url(FONTS/Garet-Book.ttf);
 }
 
@@ -140,6 +140,7 @@ html {
 
 .container {
     overflow-x: hidden;
+    font-family: 'Liham', 'Garet';
     background-image: url(IMAGES/AIMEE2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,11 +190,19 @@ html {
     padding-bottom: 100px;
 }
 
+.bamdef h2 {
+    font-family: 'Liham';
+}
+
 .bamdesc {
     margin-top: 500px;
     padding: 60px 180px;
 
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bamdesc h2 {
+    font-family: 'Liham';
 }
 
 .bamdesc p {
@@ -271,6 +280,10 @@ p {
 
 .kunodesc p {
     text-align: justify;
+}
+
+.kuno h2 {
+    font-family: 'Liham';
 }
 
 .kunobtn {
