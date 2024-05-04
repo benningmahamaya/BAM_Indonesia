@@ -17,8 +17,8 @@ html {
 
 @font-face {
     font-family: 'Liham';
-    src: url(FONTS/Liham\ 2.0.woff) format(.woff);
-        url(FONTS/Liham\ 2.0.woff2) format(.woff2);
+    src: url(FONTS/Liham 2.0.woff) format(.woff);
+        url(FONTS/Liham 2.0.woff2) format(.woff2);
 }
 
 @font-face {
