@@ -16,9 +16,9 @@ html {
 
 @font-face {
     font-family: Liham;
-    src: url(FONTS/Liham 2.0.woff)
+    src: url(FONTS/Liham 2.0.woff) format(.woff)
     font-family: Garet;
-    src: url(FONTS/Garet-Book.woff)
+    src: url(FONTS/Garet-Book.woff) format(.woff)
 }
 
 .arrowup {
