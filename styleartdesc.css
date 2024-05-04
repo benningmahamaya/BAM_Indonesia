@@ -14,6 +14,19 @@ html {
     src: url(FONTS/Garet-Book.ttf);
 }
 
+@font-face {
+    font-family: 'Liham';
+    src: url(FONTS/Liham\ 2.0.woff) format(.woff);
+        url(FONTS/Liham\ 2.0.woff2) format(.woff2);
+}
+
+@font-face {
+    font-family: 'Garet';
+    src: url(FONTS/Garet-Book.woff) format(.woff);
+        url(FONTS/Garet-Book.woff2) format(.woff2);
+    
+}
+
 .navbar {
     overflow-x: hidden;
     width: 100%;
