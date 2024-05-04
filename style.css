@@ -16,8 +16,8 @@ html {
 
 @font-face {
     font-family: 'Liham';
-    src: url(FONTS/Liham\ 2.0.woff) format(.woff);
-        url(FONTS/Liham\ 2.0.woff2) format(.woff2);
+    src: url(FONTS/Liham 2.0.woff) format(.woff);
+        url(FONTS/Liham 2.0.woff2) format(.woff2);
 }
 
 @font-face {
@@ -148,7 +148,7 @@ html {
     width: auto;
     padding-top: 160px;
     margin-bottom: 20px;
-    font-family: 'Liham';
+    
     text-align: center;
     font-size: 50px;
     color: #FFE3EC;
