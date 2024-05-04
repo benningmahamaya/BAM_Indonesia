@@ -528,6 +528,7 @@ p {
     list-style-type: none;
     padding: 10px;
     padding-left: 0;
+    font-family: 'Garet';
 }
 
 .footnav a {
