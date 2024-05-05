@@ -520,6 +520,7 @@ p {
 
 .footnav {
     grid-area: footnav;
+    font-family: 'Garet';
     padding-right: 70px;
     text-align: left;
 }
@@ -528,12 +529,15 @@ p {
     list-style-type: none;
     padding: 10px;
     padding-left: 0;
+    font-family: 'Garet';
 }
 
 .footnav a {
     text-decoration: none;
     color: #E9DDBD;
     letter-spacing: 1px;
+    font-family: 'Garet';
+    cursor: pointer;
 }
 
 .footnav a:hover {
@@ -548,7 +552,6 @@ p {
 .footbtn button {
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
-    cursor: pointer;
     color: #E9DDBD;
     padding: 15px 50px 15px 50px;
     text-align: center;
@@ -556,6 +559,7 @@ p {
     font-family: Garet;
     font-size: 15px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 
 .footbtn button:hover {
@@ -591,14 +595,12 @@ p {
     background: transparent;
     border-radius: 50%;
     border: 5px solid #E9DDBD;
-    cursor: pointer;
 }
 
 .back i {
     font-size: 35px;
     position: relative;
     top: 22%;
-    cursor: pointer;
  }
 
 .abtbam {
