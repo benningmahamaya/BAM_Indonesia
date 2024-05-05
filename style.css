@@ -169,7 +169,7 @@ html {
 .landingbtn button {
     margin: 20px;
     padding: 7px 20px;
-
+    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
     color: #E9DDBD;
@@ -181,6 +181,7 @@ html {
 .landingbtn button:hover {
     background-color: #93927A;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .bamdef {
@@ -229,7 +230,7 @@ p {
     border: none;
     background-color: #93927A;
     padding: 10px 30px;
-
+    cursor: pointer;
     font-family: Garet;
     letter-spacing: 1px;
     font-size: 20px;
@@ -239,6 +240,7 @@ p {
 .learnmore:hover {
     background-color: #D46988;
     transition: 1s;
+    cursor: pointer;
 }
 
 .kuno {
@@ -277,6 +279,7 @@ p {
     text-align: right;
     margin-top: 55px;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .poster {
@@ -545,6 +548,7 @@ p {
 .footbtn button {
     background-color: rgba(0, 0, 0, 0.4);
     border: none;
+    cursor: pointer;
     color: #E9DDBD;
     padding: 15px 50px 15px 50px;
     text-align: center;
@@ -557,6 +561,7 @@ p {
 .footbtn button:hover {
     background-color: #D46988;
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .footbtn h3 {
@@ -586,12 +591,14 @@ p {
     background: transparent;
     border-radius: 50%;
     border: 5px solid #E9DDBD;
+    cursor: pointer;
 }
 
 .back i {
     font-size: 35px;
     position: relative;
     top: 22%;
+    cursor: pointer;
  }
 
 .abtbam {
@@ -624,6 +631,7 @@ p {
 
 .abbtn button {
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .map {
