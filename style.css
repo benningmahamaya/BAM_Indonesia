@@ -251,7 +251,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(65, 63, 63);
     background-blend-mode: multiply;
     border-top: 1px solid #E9DDBD;
     border-bottom: 1px solid #E9DDBD;
@@ -343,7 +343,7 @@ p {
 .submissions {
     overflow-x: hidden;
     background-image: url(IMAGES/Copy\ of\ DSC_5341\ \(1\).jpg);
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(65, 63, 63);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -475,7 +475,7 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(65, 63, 63);
     background-blend-mode: multiply;
     padding: 50px;
     text-align: center;
